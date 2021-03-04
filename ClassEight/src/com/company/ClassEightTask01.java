@@ -11,10 +11,10 @@ public class ClassEightTask01 {
         System.out.println("Enter amount of money");
         float startSum = scanner.nextInt();
         System.out.println("Enter amount of year");
-        int period = scanner.nextInt();
+        int month = scanner.nextInt();
         double interestRate = 0.015;
 
-        for (int i = 1; i <= period * 12; i++) {
+        for (int i = 1; i <= month * 12; i++) {
             startSum += startSum * 0.015;
         }
         System.out.println("Your future amount will be: " + startSum);
