@@ -9,13 +9,13 @@ public class ClassEightTask02 {
     public static void main(String[] args) {
         for (int i = 1; i < 100; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
-                System.out.println("HelloWorld");
+                System.out.print(" HelloWorld ");
             } else if (i % 3 == 0) {
-                System.out.println("Hello");
+                System.out.print(" Hello ");
             } else if (i % 5 == 0) {
-                System.out.println("World");
+                System.out.print(" World ");
             } else {
-                System.out.println(i + "");
+                System.out.print(i + "");
             }
         }
     }
