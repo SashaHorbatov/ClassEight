@@ -15,7 +15,7 @@ public class ClassEightTask02 {
             } else if (i % 5 == 0) {
                 System.out.print(" World ");
             } else {
-                System.out.print(i + "");
+                System.out.print(i + " ");
             }
         }
     }
